@@ -1,0 +1,69 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "QRD"],
+    "soc_id": ["415","435", "457", "519", "608", "632"]
+  },
+  "ois_system_bus":{
+    "owner": "sns_ois_system",
+    ".config":{
+      "owner": "sns_ois_system",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "5"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_ois_en"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_ois_en"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "gyro_name":{ "type": "str", "ver": "0",
+        "data": "bmi260_3"
+      },
+      "ois_name":{ "type": "str", "ver": "0",
+        "data": "dw9828c"
+      },
+      "ois_pid_index":{"type": "int", "ver": "0",
+        "data": "2"
+      }
+    }
+  }
+}
