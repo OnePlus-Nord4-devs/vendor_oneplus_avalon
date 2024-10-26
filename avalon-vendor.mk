@@ -401,5 +401,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service.xml \
     android.hardware.wifi.hostapd.xml \
-    android.hardware.wifi.supplicant.xml \
-    vibrator-default.xml
+    android.hardware.wifi.supplicant.xml
